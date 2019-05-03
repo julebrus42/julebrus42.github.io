@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+}
+
+#hele {
+    width: 50%;
+    margin: auto;
+    background-color: orange;
+    padding: 1em;
+    padding-left: 2em;
+    border-radius: 0.7em;
+}
+
+input {
+    border-radius: 0.4em;
+
+}
+
+#knapp {
+    border-radius: 0.1em;
+}
+
+.feil {
+    border: 0.15em solid red;
+}

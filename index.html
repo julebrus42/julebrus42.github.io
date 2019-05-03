@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Oblig_5_css.css">
+    <script defer src="Oblig_5_js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="hele">
+
+        <h1>Bestilling</h1>
+
+        <label>Navn:</label> <br>
+        <input type="text" id="navn">
+        <p></p>
+
+        <label>Epost:</label> <br>
+        <input type="email" id="epost">
+        <p></p>
+
+        <label>Hvor ønsker du å reise?</label> <br>
+        
+        <select name="" id="reisested">
+            <option value=" "></option>
+            <option value="New York">New York</option>
+            <option value="Ankara">Ankara</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="London">London</option>
+            <option value="Kairo">Kairo</option>
+        </select>
+        <p></p>
+
+        <label>Antall Voksne:</label> <br>
+        <input type="number" id="antall_voksne" value="0">
+        <p></p>
+            
+        <label>Antall Barn:</label> <br>
+        <input type="number" id="antall_barn" value="0">
+        <p></p>
+
+        <label>Ønsker du reiseforsikring?</label> <br>
+        <input type="radio" name="forsikring" value="ja" id="forsikring_ja">Ja
+        <input type="radio" name="forsikring" value="nei" id="forsikring_nei">Nei
+        <p></p>
+
+        <br>
+
+        <button id="knapp">Send Inn</button>
+
+        <p id="svar"></p>
+        
+    </div>
+</body>
+</html>

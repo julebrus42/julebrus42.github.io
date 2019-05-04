@@ -164,7 +164,7 @@ function failtest(check) {
 
     if((antall_voksneEl.value < 0) || (antall_voksneEl.value > 20)) {   
         check.push("fail");
-        feil_svarEl[3].innerHTML = "Kan kunn velge mellom 0 og 20 voksne";
+        feil_svarEl[3].innerHTML = "Kan kun velge mellom 0 og 20 voksne";
         antall_voksneEl.className += "feil";
     } 
 
@@ -177,7 +177,7 @@ function failtest(check) {
 
     if((antall_barnEl.value < 0) || (antall_barnEl.value > 20)) {
         check.push("fail");
-        feil_svarEl[4].innerHTML = "Kan kunn velge mellom 0 og 20 barn";
+        feil_svarEl[4].innerHTML = "Kan kun velge mellom 0 og 20 barn";
         antall_barnEl.className += "feil";
         console.log("hei");
     }
